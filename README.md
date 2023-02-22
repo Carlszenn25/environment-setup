@@ -18,7 +18,7 @@
     export PATH="/Applications/XAMPP/xamppfiles/bin:$PATH"
     ```
     This line adds the path to the PHP binary file in XAMPP to your system's PATH environment variable.
-4. On your keyboard, press `Control + O` to save the file, then `Control + X` to exit nano.
+4. On your keyboard, press `Control + O` to save the file, then `ENTER`, then `Control + X` to exit nano.
 5. To make the changes take effect, type the following command:
     ```shell
     source ~/.bash_profile
@@ -38,7 +38,7 @@
    export PATH="/Applications/XAMPP/xamppfiles/bin:$PATH"
    ```
    This line adds the path to the PHP binary file in XAMPP to your system's PATH environment variable.
-4. On your keyboard, press `Control + O` to save the file, then `Control + X` to exit nano.
+4. On your keyboard, press `Control + O` to save the file, then `ENTER`, then `Control + X` to exit nano.
 5. To make the changes take effect, close and reopen the Terminal app.
 
 
@@ -83,7 +83,7 @@
    export PATH="$PATH:$HOME/.composer/vendor/bin"
    ```
    This line adds the Composer binary directory to your system's `PATH` environment variable. The `~/.composer/vendor/bin` directory is where Composer installs global packages and creates symlinks to executable files.
-5. Press `Control + O` to save the file, then `Control + X` to exit nano.
+5. Press `Control + O` to save the file, then `ENTER`, then `Control + X` to exit nano.
 6. To make the changes take effect, either open a new Terminal window or run the following command:
    ```shell
    source ~/.bash_profile
